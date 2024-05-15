@@ -1,4 +1,4 @@
-module github.com/FourWD/auction.middleware
+module github.com/FourWD/duckbook.middleware
 
 go 1.19
 
