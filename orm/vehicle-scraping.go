@@ -3,7 +3,7 @@ package orm
 import "github.com/FourWD/middleware/orm"
 
 type VehicleScraping struct {
-	orm.VehicleModel
+	orm.Vehicle
 	Web               string
 	SKU               string
 	Brand             string
