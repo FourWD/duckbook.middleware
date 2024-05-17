@@ -4,6 +4,7 @@ import "github.com/FourWD/middleware/orm"
 
 type VehicleScraping struct {
 	orm.Vehicle
+	Name              string
 	Web               string
 	SKU               string
 	Brand             string
