@@ -18,4 +18,6 @@ type VehicleScrapingLog struct {
 	PricePreVat       string
 	Price             string
 	BodyType          string
+	Fuel              string
+	Color             string
 }
