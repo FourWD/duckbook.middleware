@@ -5,6 +5,7 @@ import "github.com/FourWD/middleware/model"
 type LogScraping struct {
 	ID string `json:"id" query:"id" gorm:"type:varchar(36);primary_key;"`
 	model.GormModel
-	WebID string `json:"web_id" query:"web_id" gorm:"type:varchar(256);"`
-	Page  int    `json:"page" query:"page" gorm:"type:int;"`
+	WebID     string `json:"web_id" query:"web_id" gorm:"type:varchar(256);"`
+	Page      int    `json:"page" query:"page" gorm:"type:int;"`
+	SleepHour int    `json:"sleep_hour" query:"sleep_hour" gorm:"type:int;"`
 }
