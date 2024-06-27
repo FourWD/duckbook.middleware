@@ -6,6 +6,7 @@ type VehicleScraping struct {
 	orm.Vehicle
 	Name              string
 	Web               string
+	WebID             string `json:"web_id" query:"web_id" gorm:"type:varchar(36)"`
 	SKU               string
 	Brand             string
 	Model             string
