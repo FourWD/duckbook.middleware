@@ -10,6 +10,7 @@ type VehicleScraping struct {
 	SKU               string
 	Brand             string
 	Model             string
+	SubModel          string
 	Gear              string
 	Province          string
 	Dealer            string
