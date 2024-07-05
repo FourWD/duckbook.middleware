@@ -16,6 +16,7 @@ type VehicleScraping struct {
 	Dealer            string
 	Remark            string
 	Mile              string
+	ModelYear         string
 	YearManufacturing string
 	PricePreVat       string
 	Price             string
