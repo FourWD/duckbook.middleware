@@ -8,6 +8,7 @@ type VehicleScraping struct {
 	Web               string
 	WebID             string `json:"web_id" query:"web_id" gorm:"type:varchar(36)"`
 	SKU               string
+	VehicleBrandID    string `json:"vehicle_brand_id" query:"vehicle_brand_id" gorm:"type:varchar(36)"`
 	Brand             string
 	Model             string
 	SubModel          string
@@ -20,6 +21,7 @@ type VehicleScraping struct {
 	YearManufacturing string
 	PricePreVat       string
 	Price             string
+	VehicleTypeID     string `json:"vehicle_type_id" query:"vehicle_type_id" gorm:"type:varchar(10)"`
 	BodyType          string
 	Fuel              string
 	Color             string
