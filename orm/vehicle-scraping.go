@@ -1,6 +1,10 @@
 package orm
 
-import "github.com/FourWD/middleware/orm"
+import (
+	"time"
+
+	"github.com/FourWD/middleware/orm"
+)
 
 type VehicleScraping struct {
 	orm.Vehicle
@@ -25,4 +29,5 @@ type VehicleScraping struct {
 	BodyType          string
 	Fuel              string
 	Color             string
+	PublishDate       time.Time `json:"publish_date" query:"publish_date" firestore:"publish_date"`
 }
